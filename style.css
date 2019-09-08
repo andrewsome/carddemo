@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 body{
-    background-color: seashell
+    background-color: black;
     
+}
+.cardbody{
+    background-color: #e1e7ec;
+    margin: auto;
 }
 /*Top PART*/
 .top_part{
-   
     text-align: center;
 }
 .user_icon{
@@ -37,7 +40,7 @@ body{
 }
 .paragraph{
     text-align: center;
-    max-width: 610px;
+    max-width: 600px;
     margin: 10px auto;
 }
 /*BOTTOM PART*/
