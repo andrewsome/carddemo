@@ -7,6 +7,7 @@ body{
     background-color: white;
     
 }
+/*Top PART*/
 .top_part{
    
     text-align: center;
@@ -18,10 +19,18 @@ body{
     display: inline-block;
     margin: 10px 14rem;
 }
-.option{
+#option{
     display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
 }
-
+#option:hover{
+    cursor: pointer;
+    background: grey;
+}
+/*MIDDLE PART*/
 .mid_part{
     text-align: center;
     
@@ -31,19 +40,45 @@ body{
     max-width: 610px;
     margin: 10px auto;
 }
+/*BOTTOM PART*/
 .bot_part{
     text-align: center;
+}
+#heart{
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    transition: all 0.3s ease;
+}
+#heart:hover{
+    cursor: pointer;
+    background: grey;
+}
+#share{
+    display: inline-block;
+    margin: 0 25rem 0 5rem;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    transition: all 0.3s ease;
+}
+#share:hover{
+    cursor: pointer;
+    background: grey;
+}
+
+#droplist{
+    display: inline-block;
     
+    background-color: white; 
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    transition: all 0.3s ease;
 }
-.heart{
-    display: inline-block;
-    text-align: left;
-}
-.share{
-    display: inline-block;
-    margin-left: 20px;
-}
-.droplist{
-    display: inline-block;
-    margin-left: 30rem;
+#droplist:hover{
+    cursor: pointer;
+    background: grey;
 }
